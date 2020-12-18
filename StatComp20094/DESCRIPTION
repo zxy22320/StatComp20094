@@ -1,0 +1,27 @@
+Package: StatComp20094
+Type: Package
+Title: Functions to generate correlated bernoulli distribution and GWAS simulation data and my assignments
+Version: 1.0
+Date: 2020-12-14
+Author: Xiangyu Zhang
+Maintainer: Xiangyu Zhang <zxy22320@mail.ustc.edu.cn>
+Description: Several R and Rcpp function are included in this package for illustration. 
+License: GPL (>= 2)
+Imports: 
+    Rcpp,
+    microbenchmark,
+    knitr,
+    rmarkdown,
+    MASS,
+    Ball,
+    DAAG,
+    RANN,
+    boot,
+    bootstrap,
+    energy
+LinkingTo: Rcpp
+RoxygenNote: 7.1.1
+Encoding: UTF-8
+VignetteBuilder: knitr
+URL: http://github.com/zxy22320/StatComp20094
+BugReports: http://github.com/zxy22320/StatComp20094/issues
